@@ -27,7 +27,7 @@ html, body {
 	color: #514545;
     margin-left: 15px;
     margin-bottom: 40px;
-	background: #fff8c6;
+	background: #ffef76;
 }
 h1{
     text-indent: 0em;
