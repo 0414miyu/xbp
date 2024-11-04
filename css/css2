@@ -1,0 +1,114 @@
+body {
+  font-family: 'Libre Baskerville', serif;
+  background: #262530;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#dust {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+.title {
+  transform: scale(0);
+  filter: blur(10px);
+}
+h1 {
+  font-size: 2em;
+  margin-top: 50px;
+  opacity: 1;
+  position: relative;
+  color: #E3E3EB;
+  font-weight: 400;
+  text-align: center;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+  border-bottom: 3px solid #E3E3EB;
+  letter-spacing: 10px;
+}
+h1 > div {
+  position: relative;
+  display: inline-block;
+}
+h1 > div + div {
+  display: block;
+}
+h1 span {
+  letter-spacing: normal;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 0.5em;
+  font-style: italic;
+  position: relative;
+  z-index: 2;
+}
+h1 span:before,
+h1 span:after {
+  content: "";
+  width: 43%;
+  height: 3px;
+  border-radius: 5px;
+  background: #E3E3EB;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  top: 0.5em;
+}
+h1 span:after {
+  left: 0;
+}
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 14px;
+  letter-spaceing: 5px;
+  line-height: 1.2em;
+}
+/*ANimation stuff*/
+.title {
+  -webkit-animation-name: zoomIn;
+          animation-name: zoomIn;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+@-webkit-keyframes zoomIn {
+  0% {
+    transform: scale(0.3);
+    filter: blur(10px);
+  }
+  40% {
+    transform: scale(1);
+  }
+  100% {
+    filter: blur(0);
+    transform: scale(1);
+  }
+}
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.3);
+    filter: blur(10px);
+  }
+  40% {
+    transform: scale(1);
+  }
+  100% {
+    filter: blur(0);
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,23 @@
+.title-box2{
+  margin: 1em 0;
+  padding: 1.5em 1em 1em;
+  position: relative;
+  border: 1px solid #ffc107;
+  background-color: #ffecb3;
+}
+
+.title-box2-title{
+  position: absolute;
+  top: -0.8em;
+  left: 20px;
+  font-weight: bold;
+  font-size: 1.1em;
+  background-color: #ffc107;
+  color: #fff;
+  padding: 0 0.5em;
+}
+
+.title-box2 p{
+  margin: 0;
+  padding: 0;
+}
