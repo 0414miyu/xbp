@@ -1,4 +1,29 @@
-import requests    # ウェブページのデータを取得するため
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <title>💖✨プログラミング✨💖</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1 style="text-align: center;">💖✨プログラミング✨💖</h1>
+    <br>
+    <br><style>
+        div{text-align: center;}
+    </style>
+<div>
+    <h2 style="text-align: center;">とあるサイトのページが更新されたらメールに通知がくるシステム</h2>
+    
+    グループで話し合ってみたところ、「webclassで課題が更新された時にメールで通知がくるシステムがあったら便利になるのではないか」という意見が出ました<br>
+    私は課題が出ない授業をとっているためwebclassではないものにしようと、どんな通知が来たら嬉しくなるか考えました<br>
+    そして、スターバックスの募集ページが更新されたらタイミングを逃さず、すぐに応募できるのではないか！？と。名案すぎる･･･<br>
+    どういうことかというと、募集が出て数時間、1日でも時間が経ってしまったら募集人数の多さの関係で面接まで行けずに下のように落ちちゃうという、、、まじ厳しすぎるって！<br>
+    <img src="./images/メール.png" width="50%"><br>
+    <br>
+    そこで、まずは違うもので検証してみてから実践していこうと思い、頻繁に情報が更新されるyahooニュースで通知がくるシステムを、chatGPTを頼りに作ってみました<br>
+    メール送信の設定のところにメールアドレスと２段階認証のパスワードを入れることで、ページが更新されたら通知がくるというシステムになるそうです<br>
+    <pre><code>
+        import requests    # ウェブページのデータを取得するため
 import hashlib     # ページの内容をハッシュ化して変更を検出するため
 import time        # 一定時間ごとにチェックするため
 import smtplib     # メールを送信するため
@@ -10,9 +35,9 @@ url = "https://news.yahoo.co.jp/"
 check_interval = 300  # 5分ごとにチェック
 
 # メール送信の設定
-email_sender = "miyu04bluestar@gmail.com"
-email_password = "saffy0414"  # セキュリティ上、保存方法に注意
-email_recipient = "miyu04bluestar@gmail.com"
+email_sender = ""
+email_password = ""  # セキュリティ上、保存方法に注意
+email_recipient = ""
 smtp_server = "smtp.gmail.com"
 smtp_port = 587
 
@@ -60,3 +85,6 @@ def monitor_page():
 
 # プログラムを実行
 monitor_page()
+    </code></pre>
+</div>
+</body>
