@@ -51,28 +51,35 @@ menu = {
         "カモミール",
         "ユースベリー",
         "ほうじ茶",
-        "全グランドウーロン"
+        "ゼングランドウーロン"
     ]
 }
 
-# 最初の質問 - ドリンクタイプを選択
-print("次の中からドリンクタイプを選んでください: フラペチーノ, ラテ, モカ, コーヒー, ティー")
-drink_type = input("ドリンクタイプ: ")
+# 最初の質問 - ドリンクを選択
+print("いらっしゃいませ。ご注文をお伺いします。次の中からお好きなドリンクをお選びください: フラペチーノ, ラテ, モカ, コーヒー, ティー")
+drink_type = input("ドリンク: ")
 
 # 選択肢が正しいか確認
 if drink_type in menu:
-    # 2つ目の質問 - 選択したドリンクタイプに応じたドリンクを表示
-    print(f"次の中からお好きな{drink_type}を選んでください:")
+    # 2つ目の質問 - 選択したドリンクに応じたドリンクを表示
+    print(f"どの{drink_type}にしますか？:")
     for i, option in enumerate(menu[drink_type], 1):
         print(f"{i}. {option}")
     
-    choice_num = int(input("番号を入力してください: ")) - 1
+    choice_num = int(input("お好きなドリンクを番号で入力してください: ")) - 1
 
     # 選択番号が範囲内か確認して、選択したドリンクを表示
     if 0 <= choice_num < len(menu[drink_type]):
-        selected_drink = menu[drink_type][choice_num]
-        print(f"お選びいただいたドリンク: {selected_drink}")
+        selected_drink = menu[drink_type][choice_num]             
+        print(f" {selected_drink} ですね、かしこまりました。")
     else:
-        print("無効な選択です。番号が範囲内か確認してください。")
+        print("お間違いはないですか？申し訳ございませんが、もう１度ご注文をお願いいたします。")
 else:
-    print("無効な選択です。最初のドリンクタイプを正しく選んでください。")
+    print("お間違いはないですか？申し訳ございませんが、もう１度ご注文をお願いいたします。")
+
+# フラペチーノおよびコールドブリューコーヒーは温度選択不要
+if drink_type == "フラペチーノ" or {selected_drink} == "コールドブリューコーヒー":
+
+# アイス・ホットを選択
+            print(f"{selected_drink} はアイスとホットどちらになさいますか？")
+            temperature = input("Hot/Iced:")
