@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e54af46-1102-4104-872f-6e5e8f7c0d62" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fqBuDxSHCvOOO0j5Mk3fmXWOsP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.serial_serch">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IoT_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.pyenv/versions/3.7.3/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="serial_serch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IoT_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.pyenv/versions/3.7.3/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/serial_serch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.serial_serch" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e54af46-1102-4104-872f-6e5e8f7c0d62" name="Default Changelist" comment="" />
+      <created>1596935962542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596935962542</updated>
+      <workItem from="1596935963822" duration="7582000" />
+      <workItem from="1596949705679" duration="904000" />
+      <workItem from="1642920775220" duration="1293000" />
+      <workItem from="1642922432987" duration="2956000" />
+      <workItem from="1642925821100" duration="5000" />
+      <workItem from="1642926128956" duration="27000" />
+      <workItem from="1642926194072" duration="40000" />
+      <workItem from="1642926287137" duration="1315000" />
+      <workItem from="1642927874819" duration="132000" />
+      <workItem from="1642928033299" duration="370000" />
+      <workItem from="1642928487859" duration="65000" />
+      <workItem from="1642928597764" duration="55000" />
+      <workItem from="1642928894846" duration="788000" />
+      <workItem from="1642929918404" duration="41000" />
+      <workItem from="1642930083557" duration="520000" />
+      <workItem from="1643266612108" duration="24000" />
+      <workItem from="1643266638789" duration="77000" />
+      <workItem from="1643267052335" duration="4000" />
+      <workItem from="1643334537556" duration="130000" />
+      <workItem from="1643334848720" duration="1144000" />
+      <workItem from="1643589058070" duration="30000" />
+      <workItem from="1643589768090" duration="22000" />
+      <workItem from="1643589931607" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1643266703143">
+      <screen x="0" y="25" width="1792" height="1038" />
+    </state>
+    <state x="360" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog/-52.-1055.1920.1055/0.25.1792.1038@0.25.1792.1038" timestamp="1643266703143" />
+    <state x="603" y="155" key="#main" timestamp="1643589774278">
+      <screen x="0" y="25" width="1792" height="1040" />
+    </state>
+    <state x="603" y="155" key="#main/-52.-1055.1920.1055/0.25.1792.1040@0.25.1792.1040" timestamp="1643589774278" />
+    <state x="603" y="155" key="#serial_serch" timestamp="1643334647390">
+      <screen x="0" y="25" width="1792" height="1039" />
+    </state>
+    <state x="603" y="155" key="#serial_serch/-52.-1055.1920.1055/0.25.1792.1039@0.25.1792.1039" timestamp="1643334647390" />
+    <state width="1750" height="287" key="GridCell.Tab.0.bottom" timestamp="1643589789153">
+      <screen x="0" y="25" width="1792" height="1040" />
+    </state>
+    <state width="1750" height="346" key="GridCell.Tab.0.bottom/-52.-1055.1920.1055/0.25.1792.1036@0.25.1792.1036" timestamp="1642929741921" />
+    <state width="1750" height="287" key="GridCell.Tab.0.bottom/-52.-1055.1920.1055/0.25.1792.1037@0.25.1792.1037" timestamp="1642929174882" />
+    <state width="1750" height="287" key="GridCell.Tab.0.bottom/-52.-1055.1920.1055/0.25.1792.1038@0.25.1792.1038" timestamp="1642928552140" />
+    <state width="1750" height="287" key="GridCell.Tab.0.bottom/-52.-1055.1920.1055/0.25.1792.1039@0.25.1792.1039" timestamp="1643334667684" />
+    <state width="1750" height="287" key="GridCell.Tab.0.bottom/-52.-1055.1920.1055/0.25.1792.1040@0.25.1792.1040" timestamp="1643589789153" />
+    <state width="1750" height="287" key="GridCell.Tab.0.center" timestamp="1643589789152">
+      <screen x="0" y="25" width="1792" height="1040" />
+    </state>
+    <state width="1750" height="346" key="GridCell.Tab.0.center/-52.-1055.1920.1055/0.25.1792.1036@0.25.1792.1036" timestamp="1642929741920" />
+    <state width="1750" height="287" key="GridCell.Tab.0.center/-52.-1055.1920.1055/0.25.1792.1037@0.25.1792.1037" timestamp="1642929174882" />
+    <state width="1750" height="287" key="GridCell.Tab.0.center/-52.-1055.1920.1055/0.25.1792.1038@0.25.1792.1038" timestamp="1642928552139" />
+    <state width="1750" height="287" key="GridCell.Tab.0.center/-52.-1055.1920.1055/0.25.1792.1039@0.25.1792.1039" timestamp="1643334667683" />
+    <state width="1750" height="287" key="GridCell.Tab.0.center/-52.-1055.1920.1055/0.25.1792.1040@0.25.1792.1040" timestamp="1643589789152" />
+    <state width="1750" height="287" key="GridCell.Tab.0.left" timestamp="1643589789152">
+      <screen x="0" y="25" width="1792" height="1040" />
+    </state>
+    <state width="1750" height="346" key="GridCell.Tab.0.left/-52.-1055.1920.1055/0.25.1792.1036@0.25.1792.1036" timestamp="1642929741920" />
+    <state width="1750" height="287" key="GridCell.Tab.0.left/-52.-1055.1920.1055/0.25.1792.1037@0.25.1792.1037" timestamp="1642929174881" />
+    <state width="1750" height="287" key="GridCell.Tab.0.left/-52.-1055.1920.1055/0.25.1792.1038@0.25.1792.1038" timestamp="1642928552139" />
+    <state width="1750" height="287" key="GridCell.Tab.0.left/-52.-1055.1920.1055/0.25.1792.1039@0.25.1792.1039" timestamp="1643334667683" />
+    <state width="1750" height="287" key="GridCell.Tab.0.left/-52.-1055.1920.1055/0.25.1792.1040@0.25.1792.1040" timestamp="1643589789152" />
+    <state width="1750" height="287" key="GridCell.Tab.0.right" timestamp="1643589789152">
+      <screen x="0" y="25" width="1792" height="1040" />
+    </state>
+    <state width="1750" height="346" key="GridCell.Tab.0.right/-52.-1055.1920.1055/0.25.1792.1036@0.25.1792.1036" timestamp="1642929741920" />
+    <state width="1750" height="287" key="GridCell.Tab.0.right/-52.-1055.1920.1055/0.25.1792.1037@0.25.1792.1037" timestamp="1642929174882" />
+    <state width="1750" height="287" key="GridCell.Tab.0.right/-52.-1055.1920.1055/0.25.1792.1038@0.25.1792.1038" timestamp="1642928552140" />
+    <state width="1750" height="287" key="GridCell.Tab.0.right/-52.-1055.1920.1055/0.25.1792.1039@0.25.1792.1039" timestamp="1643334667683" />
+    <state width="1750" height="287" key="GridCell.Tab.0.right/-52.-1055.1920.1055/0.25.1792.1040@0.25.1792.1040" timestamp="1643589789152" />
+    <state width="1750" height="346" key="GridCell.Tab.1.bottom" timestamp="1642929741922">
+      <screen x="0" y="25" width="1792" height="1036" />
+    </state>
+    <state width="1750" height="346" key="GridCell.Tab.1.bottom/-52.-1055.1920.1055/0.25.1792.1036@0.25.1792.1036" timestamp="1642929741922" />
+    <state width="1750" height="346" key="GridCell.Tab.1.bottom/-52.-1055.1920.1055/0.25.1792.1037@0.25.1792.1037" timestamp="1642929060756" />
+    <state width="1750" height="346" key="GridCell.Tab.1.center" timestamp="1642929741921">
+      <screen x="0" y="25" width="1792" height="1036" />
+    </state>
+    <state width="1750" height="346" key="GridCell.Tab.1.center/-52.-1055.1920.1055/0.25.1792.1036@0.25.1792.1036" timestamp="1642929741921" />
+    <state width="1750" height="346" key="GridCell.Tab.1.center/-52.-1055.1920.1055/0.25.1792.1037@0.25.1792.1037" timestamp="1642929060755" />
+    <state width="1750" height="346" key="GridCell.Tab.1.left" timestamp="1642929741921">
+      <screen x="0" y="25" width="1792" height="1036" />
+    </state>
+    <state width="1750" height="346" key="GridCell.Tab.1.left/-52.-1055.1920.1055/0.25.1792.1036@0.25.1792.1036" timestamp="1642929741921" />
+    <state width="1750" height="346" key="GridCell.Tab.1.left/-52.-1055.1920.1055/0.25.1792.1037@0.25.1792.1037" timestamp="1642929060754" />
+    <state width="1750" height="346" key="GridCell.Tab.1.right" timestamp="1642929741922">
+      <screen x="0" y="25" width="1792" height="1036" />
+    </state>
+    <state width="1750" height="346" key="GridCell.Tab.1.right/-52.-1055.1920.1055/0.25.1792.1036@0.25.1792.1036" timestamp="1642929741922" />
+    <state width="1750" height="346" key="GridCell.Tab.1.right/-52.-1055.1920.1055/0.25.1792.1037@0.25.1792.1037" timestamp="1642929060755" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/20200809$arduino.coverage" NAME="arduino Coverage Results" MODIFIED="1596943562515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doyolab_IoT_sample$serial_serch.coverage" NAME="serial_serch Coverage Results" MODIFIED="1643589778157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/20200809$IoT.coverage" NAME="IoT Coverage Results" MODIFIED="1596950404841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/20200809$main.coverage" NAME="main Coverage Results" MODIFIED="1596937388961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doyolab_IoT_sample$main.coverage" NAME="main Coverage Results" MODIFIED="1643589774315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IoT_python$arduino.coverage" NAME="arduino Coverage Results" MODIFIED="1642929735030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
